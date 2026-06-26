@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class EnemyController : MonoBehaviour
 {
     public LayerMask PlayerLayer;
-    public float DistanceFromPlayerStop;
+    public float DistanceFromPlayerStop = 3f;
     public EnemyState state;
 
     NavMeshAgent navMesh;
